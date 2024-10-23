@@ -12,6 +12,8 @@ import { AchievementsSectionComponent } from './components/achievements-section/
 import { CustomerCardComponent } from './components/customer-card/customer-card.component';
 import { CustomerTestimonialComponent } from './components/customer-testimonial/customer-testimonial.component';
 import { MarketingSectionComponent } from './components/marketing-section/marketing-section.component';
+import { HelpSectionComponent } from './components/help-section/help-section.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { MarketingSectionComponent } from './components/marketing-section/market
     AchievementsSectionComponent,
     CustomerCardComponent,
     CustomerTestimonialComponent,
-    MarketingSectionComponent
+    MarketingSectionComponent,
+    HelpSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
