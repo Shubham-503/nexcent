@@ -1,7 +1,7 @@
 .clients-section {
   text-align: center;
   padding: 50px 20px;
-  background-color: #f8fafc; /* Adjust background as needed */
+  background-color: var(--neutral-white); /* Adjust background as needed */
 }
 
 .clients-section h2 {

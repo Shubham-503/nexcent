@@ -11,7 +11,7 @@
 
 .community-section p {
   font-size: 18px;
-  color: #666;
+  color: var(--neutral-grey);
   margin-bottom: 40px;
 }
 
@@ -23,7 +23,7 @@
 
 .card {
   width: 300px;
-  border: 1px solid #eee;
+  border: 1px solid var(--neutral-silver);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -63,5 +63,5 @@ h3 {
 
 p {
   font-size: 16px;
-  color: #333;
+  color: var(--neutral-black);
 }

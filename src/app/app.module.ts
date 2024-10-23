@@ -8,6 +8,10 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { ClientSectionComponent } from './components/client-section/client-section.component';
 import { CommunitySectionComponent } from './components/community-section/community-section.component';
 import { InfoCardSectionComponent } from './components/info-card-section/info-card-section.component';
+import { AchievementsSectionComponent } from './components/achievements-section/achievements-section.component';
+import { CustomerCardComponent } from './components/customer-card/customer-card.component';
+import { CustomerTestimonialComponent } from './components/customer-testimonial/customer-testimonial.component';
+import { MarketingSectionComponent } from './components/marketing-section/marketing-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { InfoCardSectionComponent } from './components/info-card-section/info-ca
     HeroSectionComponent,
     ClientSectionComponent,
     CommunitySectionComponent,
-    InfoCardSectionComponent
+    InfoCardSectionComponent,
+    AchievementsSectionComponent,
+    CustomerCardComponent,
+    CustomerTestimonialComponent,
+    MarketingSectionComponent
   ],
   imports: [
     BrowserModule,
