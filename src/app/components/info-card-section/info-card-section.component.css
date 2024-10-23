@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.image img {
+  width: 300px;
+  height: auto;
+}
+
+.text-content {
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 2.25rem;
+  color: var(--neutral-black);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--neutral-grey);
+  margin-bottom: 30px;
+}
