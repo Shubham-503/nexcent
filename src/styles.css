@@ -13,6 +13,7 @@
   --neutral-black: #263238;
   --neutral-white: #fff;
   --neutral-silver: #f5f7fa;
+  --neutral-grey: #717171;
 
   /* Primary Colors */
   --primary: #4caf4f;
@@ -51,4 +52,9 @@
   text-decoration: none;
   color: var(--primary);
   font-size: 1rem;
+}
+
+.container-fluid {
+  /* width: 1280px;
+  margin: 0 auto; */
 }
