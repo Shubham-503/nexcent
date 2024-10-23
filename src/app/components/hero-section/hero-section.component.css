@@ -1,0 +1,32 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--neutral-silver);
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: var(--secondary);
+  line-height: 1.2;
+}
+
+.hero-content .highlight {
+  color: var(--primary); /* Primary color */
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  margin: 20px 0;
+}
+
+.hero-image svg {
+  width: 100%;
+  max-width: 500px;
+}
